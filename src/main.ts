@@ -13,5 +13,5 @@ const sliderm = new Sliderm('#main-slider', {
     duration: 300,
     spacing: 10,
     autoplay: true,
-    align: 'center',
+    align: 'top',
 });

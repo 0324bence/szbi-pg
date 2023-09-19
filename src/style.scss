@@ -63,7 +63,13 @@ body {
         }
 
         #main-slider {
-            width: 1000px;
+            margin-top: 30px;
+            width: 1400px;
+            height: 600px;
+
+            .sliderm__slider {
+                height: 600px;
+            }
         }
     }
 
