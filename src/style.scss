@@ -16,11 +16,12 @@ body {
 
 #header {
     #above-arc {
-        height: 300px;
+        height: 500px;
         background-color: white;
 
         #navbar {
             padding: 2rem;
+            padding-bottom: 0px;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
@@ -55,9 +56,14 @@ body {
             margin-left: 40px;
             margin-right: 40px;
 
-            img {
+            .pg150-kreta-logo {
+                margin-top: 2rem;
                 height: 80px;
             }
+        }
+
+        #main-slider {
+            width: 1000px;
         }
     }
 

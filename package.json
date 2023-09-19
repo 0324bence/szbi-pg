@@ -13,7 +13,8 @@
         "vite": "^4.4.5"
     },
     "dependencies": {
-        "sass": "^1.67.0"
+        "sass": "^1.67.0",
+        "sliderm": "^1.1.0"
     },
     "prettier": {
         "arrowParens": "avoid",
