@@ -85,5 +85,30 @@ body {
 }
 
 #content {
-    background: transparent;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 8rem;
+
+    .content-col {
+        height: 400px;
+
+        * {
+            width: 100%;
+        }
+    }
+
+    #left-side,
+    #right-side {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #left-side img {
+        border: 2px solid black;
+    }
 }
