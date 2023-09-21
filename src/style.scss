@@ -55,6 +55,7 @@ body {
             justify-content: space-between;
             margin-left: 40px;
             margin-right: 40px;
+            align-items: flex-start;
 
             .pg150-kreta-logo {
                 margin-top: 2rem;
@@ -74,13 +75,28 @@ body {
     }
 
     #top-arc {
-        height: 600px;
-        background-image: radial-gradient(ellipse at center, white 0%, white 70%, transparent calc(70% + 5px));
-        background-position: center;
-        background-position-y: -350px;
-        background-size: 120% 120%;
+        position: relative;
+        padding: 0;
+        z-index: -1;
+        height: 450px;
+        // background-image: radial-gradient(ellipse at center, white 0%, white 70%, transparent calc(70% + 5px));
+        background-position: bottom;
+        // background-position-y: -350px;
+        // background-size: 120% 120%;
         background-repeat: no-repeat;
-        margin-bottom: -220px;
+        background-color: white;
+        // background-image: url("./top.svg");
+        // margin-bottom: -220px;
+        svg {
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            path {
+                position: absolute;
+                bottom: 0;
+            }
+        }
     }
 }
 
